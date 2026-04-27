@@ -1,7 +1,7 @@
 <?php
 namespace Lsswear\Curl;
 
-use Wj\Curl\ResponseAbstract;
+use Lsswear\Curl\ResponseAbstract;
 
 class AgentResponse extends ResponseAbstract {
     //思考过程

@@ -2,7 +2,7 @@
     "name": "wj/curl",
     "autoload": {
         "psr-4": {
-            "Wj\\Curl\\": "src/"
+            "Lsswear\\Curl\\": "src/"
         }
     },
     "authors": [

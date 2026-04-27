@@ -1,6 +1,6 @@
 <?php
 
-namespace Wj\Curl;
+namespace Lsswear\Curl;
 
 abstract class ResponseAbstract {
 

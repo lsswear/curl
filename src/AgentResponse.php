@@ -1,5 +1,5 @@
 <?php
-namespace Wj\Curl;
+namespace Lsswear\Curl;
 
 use Wj\Curl\ResponseAbstract;
 

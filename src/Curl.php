@@ -1,6 +1,6 @@
 <?php
 
-namespace Wj\Curl;
+namespace Lsswear\Curl;
 
 /**
  * An object-oriented wrapper of the PHP cURL extension.

@@ -220,7 +220,6 @@ class Curl {
             throw new \Exception("method callback not exist");
         }
         $this->setOpt(CURLOPT_WRITEFUNCTION, $use_callback);
-        // $this->setOpt(CURLOPT_RETURNTRANSFER, false);
     }
 
     public function setStream() {
@@ -886,14 +885,6 @@ class Curl {
             }
         }
         if (isset($conf['stream']) && $conf['stream']) {
-            // if ($this->response instanceof ResponseAbstract) {
-            //     $this->setStream();
-            // } elseif (isset($conf['stream_callback'])) {
-            //     $streamCallback = $conf['stream_callback'];
-            //     $this->setStream($streamCallback);
-            // } else {
-            //     throw new \Exception("stream callback not set");
-            // }
             if ($this->response instanceof ResponseAbstract) {
                 $this->setStream();
             } else {

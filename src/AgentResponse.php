@@ -67,8 +67,12 @@ class AgentResponse extends ResponseAbstract {
 
     protected function formatResponse(string $content): array {
         $data = json_decode($content, true);
-        $code = $data['code'];
         $message = $data['message'];
+        if (!isset($data['code'])) {
+            throw new \Exception($message, 500);
+        }
+        $code = $data['code'];
+
         if (!empty($code)) {
             throw new \Exception($message, $code);
         }

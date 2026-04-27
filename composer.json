@@ -1,5 +1,5 @@
 {
-    "name": "wj/curl",
+    "name": "Lsswear/curl",
     "autoload": {
         "psr-4": {
             "Lsswear\\Curl\\": "src/" 

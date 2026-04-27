@@ -1,0 +1,15 @@
+{
+    "name": "wj/curl",
+    "autoload": {
+        "psr-4": {
+            "Wj\\Curl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wangjun",
+            "email": "380202839@qq.com"
+        }
+    ],
+    "require": {}
+}

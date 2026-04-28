@@ -1,5 +1,8 @@
 {
     "name": "lsswear/curl",
+    "description": "php curl 请求，包括流式请求处理。",
+    "keywords": ["curl","stream"],
+    "homepage": "https://github.com/lsswear/curl",
     "autoload": {
         "psr-4": {
             "Lsswear\\Curl\\": "src/" 
@@ -11,5 +14,7 @@
             "email": "380202839@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.5.0"
+    }
 }
